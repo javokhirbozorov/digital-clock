@@ -1,0 +1,46 @@
+@font-face {
+    font-family: digital;
+    src: url(../fonts/digital-7\ \(italic\).ttf);
+}
+@font-face {
+    font-family: digital1;
+    src: url(../fonts/digital-7\ \(mono\ italic\).ttf)
+}
+@font-face {
+    font-family: name;
+    src: url(../fonts/square_sans_serif_7.ttf)
+}
+
+#clock {
+    font-size: 200px;
+    font-family: digital;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: #18CDDD;
+}
+#date {
+    font-size: 38px;
+    font-family: digital1;
+    color: #18CDDD;
+    margin-left: 30px;
+    margin-top: 150px
+    
+}
+
+#name{
+    font-family: name;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #18CDDD;
+    text-align: center;
+}
+body{
+    /* background-image: url(../img/pinkish_sunset-wallpaper-3840x2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color: #1E1E1E
+}
